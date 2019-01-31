@@ -63,7 +63,7 @@ def write_data(t, x, y, output_file=""):
 
 def parse_cmd_line_args():
     parser = argparse.ArgumentParser(
-        description="Generate time-series of Lorenz 96 model")
+        description="Generate time-series of Lorenz 96 model II")
     parser.add_argument("--length", dest="length", type=int,
                         default=1000, help="length of time-series")
     parser.add_argument("--time-step", dest="time_step", type=float,
