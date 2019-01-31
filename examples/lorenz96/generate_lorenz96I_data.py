@@ -12,8 +12,7 @@ def constant_forcing(t, x, F=10.0):
     return F
 
 def get_initial_conditions(n):
-    x0 = np.ones((n,))
-#    x0 = np.random.random((n,))
+    x0 = np.random.random((n,))
     return x0
 
 def generate_data(model, x0, length, time_step, t0=0):
